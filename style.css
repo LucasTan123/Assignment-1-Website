@@ -1,41 +1,67 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #979797;
-}
-
-.navbar {
-    background-color: #333333;
-    padding: 15px 20px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.nav-links {
-    list-style: none;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-around;
+    background-color: #2e2e2e;
 }
 
-.nav-links li {
-    display: inline;
-}
-
-.nav-links a {
+li, a, button {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
     text-decoration: none;
-    color: white;
-    padding: 10px 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #333; 
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    color: #ccc; /* Link color */
+    text-decoration: none;
+    padding: 5px 10px; /* Add padding inside the borders */
+    border: 1px solid transparent; /* Add a border, initially invisible */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.nav_links li a:hover {
+    border-color: #d3d3d3; 
+    color: #2094c9; 
+}
+
+.nav {
+    transition: all 0.3s ease 0s;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #555; 
+    color: #ccc; 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.nav-links a:hover {
-    background-color: #575757;
-    border-radius: 10px;
+button:hover {
+    background-color: #2094c9; 
 }
