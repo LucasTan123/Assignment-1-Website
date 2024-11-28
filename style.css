@@ -5,6 +5,13 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+p{
+    font-size: 20px; /* Adjust font size for readability */
+    color: azure; /* Match the theme */
+    line-height: 150%;
+    margin: 0; /* Reset default margins */
+}
+
 #Banner{
     background-image:url("banne-background.jpg");
 }
