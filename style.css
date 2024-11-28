@@ -97,7 +97,7 @@ footer {
 /* Section headers */
 .footer-section h3 {
     margin-bottom: 15px; /* Space below headers */
-    font-size: 25px; /* Header size */
+    font-size: 35px; /* Header size */
     color: azure; /* Highlight color for headers */
 }
 
@@ -105,7 +105,7 @@ footer {
 .footer-section a {
     color: azure; /* Link color */
     text-decoration: none; /* Remove underline */
-    font-size: 14px; /* Link size */
+    font-size: 20px; /* Link size */
 }
 
 .footer-section a:hover {
