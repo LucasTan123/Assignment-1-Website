@@ -223,3 +223,7 @@ footer {
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Add rounded corners for a polished look */
 }
+
+#about{
+    text-align: center;
+}
