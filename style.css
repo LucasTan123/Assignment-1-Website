@@ -48,7 +48,7 @@ header{
 .navigation a {
     text-decoration: none; /* Remove underlines */
     color: azure; /* Match the theme */
-    font-size: 1.2rem; /* Slightly larger text */
+    font-size: 25px; /* Slightly larger text */
     font-weight: bold; /* Make it stand out */
     padding: 8px 15px; /* Add spacing around links */
     border-radius: 5px; /* Rounded corners for hover effect */
