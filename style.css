@@ -31,7 +31,7 @@ body{
 }
 
 #navigation {
-    background: linear-gradient(to right, rgb(29, 35, 33), rgb(35, 42, 40)); /* Subtle gradient */
+    background: rgb(62, 82, 76); /* Subtle gradient */
     padding: 15px;
     display: flex;
     justify-content: space-evenly; /* Even spacing for links */
@@ -49,16 +49,57 @@ body{
 }
 
 #navigation a:hover {
-    background-color: rgb(45, 55, 50); /* Subtle background on hover */
+    background-color: rgb(80, 96, 88); /* Subtle background on hover */
     color: rgb(39, 151, 221); /* Change color to highlight */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
     transform: scale(1.1); /* Slight zoom effect */
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 main h1{
     text-align: center;
     font-size: 300%;
     padding: 30px;
+}
+
+footer {
+    background-color: rgb(29, 35, 33);
+    color: azure;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: azure;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: rgb(39, 151, 221); /* Highlight color on hover */
 }
 
 #telescopic {
@@ -113,47 +154,6 @@ main h1{
     color: azure; /* Match theme */
     line-height: 150%; /* Improve readability */
     margin: 0; /* Remove default margins */
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-footer {
-    background-color: rgb(29, 35, 33);
-    color: azure;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 18px;
-    margin-top: 40px;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-.social-links {
-    margin-top: 10px;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: azure;
-    margin: 0 15px;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: rgb(39, 151, 221); /* Highlight color on hover */
 }
 
 #SpiderWire-Stealth-Blue-Camo-Braid {
