@@ -224,6 +224,7 @@ footer {
     border-radius: 10px; /* Add rounded corners for a polished look */
 }
 
-#about{
+.center{
     text-align: center;
+    padding: 5px;
 }
