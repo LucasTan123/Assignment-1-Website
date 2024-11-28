@@ -77,14 +77,47 @@ main h1{
 }
 
 #telescopic p {
-    flex: 1; /* Allow the text to take up available space */
     font-size: 20px; /* Adjust font size for readability */
     color: azure; /* Match the theme */
+    line-height: 150%;
     margin: 0; /* Reset default margins */
+}
+
+#telescopic h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: azure;
 }
 
 #telescopic img {
     max-width: 300px; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Add rounded corners for a polished look */
+}
+
+#smart-lure {
+    display: flex; /* Flexbox layout for alignment */
+    flex-direction: row-reverse; /* Reverses the order to place image on the left */
+    align-items: center; /* Ensures vertical alignment */
+    gap: 20px; /* Adds spacing between the text and image */
+    margin: 20px; /* Adds spacing around the container */
+}
+
+#smart-lure img {
+    max-width: 400px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#smart-lure h2 {
+    font-size: 30px; /* Adjust heading size */
+    margin-bottom: 10px; /* Reduce space below heading */
+    color: azure; /* Match theme */
+}
+
+#smart-lure p {
+    font-size: 20px; /* Adjust font size for readability */
+    color: azure; /* Match theme */
+    line-height: 150%; /* Improve readability */
+    margin: 0; /* Remove default margins */
 }
