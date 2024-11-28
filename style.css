@@ -90,7 +90,6 @@ footer {
 
 /* Footer section styling */
 .footer-section {
-    flex: 1; /* Make sections equal width */
     min-width: 200px; /* Prevent sections from shrinking too small */
     padding: 10px; /* Inner padding for spacing */
 }
@@ -99,7 +98,7 @@ footer {
 .footer-section h3 {
     margin-bottom: 15px; /* Space below headers */
     font-size: 25px; /* Header size */
-    color: rgb(31, 36, 35); /* Highlight color for headers */
+    color: azure; /* Highlight color for headers */
 }
 
 /* Links styling */
