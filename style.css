@@ -228,3 +228,46 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+#contact-form {
+    background-color: rgb(62, 82, 76); /* Form background */
+    color: azure; /* Text color */
+    padding: 20px; /* Form padding */
+    max-width: 600px; /* Limit form width */
+    margin: 0 auto; /* Center align form */
+}
+
+#contact-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between fields */
+    display: flex;
+    flex-direction: column; /* Align labels and inputs */
+}
+
+.form-group textarea {
+    background-color: rgb(31, 36, 35); /* Input background */
+    color: azure; /* Text color */
+    border: 1px solid rgb(80, 96, 88); /* Border color */
+    padding: 10px; /* Spacing inside textareas */
+    font-size: 16px; /* Font size */
+    outline: none; /* Remove default focus outline */
+}
+
+#submit-button {
+    background-color: rgb(39, 151, 221); /* Button background */
+    color: azure; /* Button text */
+    padding: 10px 20px; /* Button padding */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+#submit-button:hover {
+    background-color: rgb(62, 82, 76); /* Change background on hover */
+    color: rgb(39, 151, 221); /* Highlight text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Add shadow on hover */
+}
