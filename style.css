@@ -289,3 +289,57 @@ footer {
     text-align: center; /* Center the text */
     padding: 20px; /* Add spacing around the content */
 }
+
+/* Product Grid Styling */
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Space around the grid */
+}
+
+/* Individual Product Styling */
+.product-item {
+    background-color: rgb(62, 82, 76); /* Match site theme */
+    color: azure; /* Text color for contrast */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    text-align: center; /* Center-align text */
+    max-width: 300px; /* Restrict width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Product Item Hover Effect */
+.product-item:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+/* Product Image Styling */
+.product-item img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Buy Button Styling */
+.buy-button {
+    background-color: rgb(39, 151, 221); /* Button color matching theme */
+    color: azure; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Comfortable size */
+    font-size: 16px; /* Readable text size */
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer; /* Pointer cursor for buttons */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+/* Buy Button Hover Effect */
+.buy-button:hover {
+    background-color: rgb(62, 82, 76); /* Reverse color scheme */
+    color: rgb(39, 151, 221); /* Text changes for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+}
