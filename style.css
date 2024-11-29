@@ -282,3 +282,10 @@ footer {
     color: rgb(39, 151, 221); /* Highlight text color */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Add shadow on hover */
 }
+
+.faq-container {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add spacing around the content */
+}
