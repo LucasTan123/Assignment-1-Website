@@ -78,64 +78,75 @@ main h1{
     padding: 0;
 }
 
-/* Footer container */
-/* Footer container */
 footer {
-    background-color: rgb(80, 96, 88); /* Dark background */
-    color: azure; /* Text color */
-    padding: 40px 20px; /* More padding for space */
+    background-color: rgb(80, 96, 88); /* Muted dark greenish-grey from the header theme */
+    color: azure; /* Light text for contrast */
+    padding: 40px 20px; /* Comfortable padding */
+    font-family: 'Arial', sans-serif; /* Clean and simple font */
 }
 
-/* Footer grid layout */
+/* Footer container layout */
 .footer-container {
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Evenly distribute sections */
-    align-items: flex-start; /* Align content to the top */
-    gap: 20px; /* Space between sections */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    display: flex;
+    justify-content: space-between; /* Spread sections evenly */
+    align-items: flex-start; /* Align sections to the top */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    gap: 30px; /* Space between sections */
 }
 
-/* Footer section styling */
+/* Footer sections */
 .footer-section {
-    min-width: 200px; /* Prevent sections from shrinking too small */
-    padding: 10px; /* Inner padding for spacing */
+    min-width: 200px; /* Minimum width to prevent shrinking */
+    padding: 10px;
 }
 
 /* Section headers */
 .footer-section h3 {
-    margin-bottom: 15px; /* Space below headers */
-    font-size: 35px; /* Header size */
-    color: azure; /* Highlight color for headers */
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(39, 151, 221); /* Soft aqua to align with a marine theme */
+    text-transform: uppercase;
+    border-bottom: 2px solid azure; /* Subtle underline effect */
+    padding-bottom: 5px;
 }
 
-/* Links styling */
+/* Footer links */
 .footer-section a {
-    color: azure; /* Link color */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Link size */
+    color: azure; /* Slightly off-white links */
+    text-decoration: none; /* No underline */
+    font-size: 18px; /* Readable link size */
+    margin: 5px 0; /* Space between links */
+    transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-    color: rgb(39, 151, 221); /* Change color on hover */
+    color: rgb(39, 151, 221); /* Aqua hover effect */
 }
 
 /* Social media icons */
 .social-icons a {
-    color: azure;
-    font-size: 40px; /* Larger icons */
+    color: azure; /* Default icon color */
+    font-size: 30px; /* Icon size */
     margin: 0 10px; /* Space between icons */
     transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: rgb(39, 151, 221); /* Highlight color on hover */
+    color: rgb(39, 151, 221); /* Aqua hover */
 }
 
-/* Responsive adjustments */
+/* Unordered list styling */
+.footer-section ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .footer-container {
         flex-direction: column; /* Stack sections vertically */
-        text-align: center; /* Center-align content for small screens */
+        text-align: center; /* Center-align content */
     }
 
     .footer-section {
