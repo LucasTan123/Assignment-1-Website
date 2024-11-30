@@ -1,11 +1,20 @@
-# Your Project's Name
+# Your Project's Name: Fishy Business
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+The Fishy Business website was made for fishing enthusiasts of any experience level. It allows people to buy, learn, and use the latest fishing equipment. It features a variety of products, from the newest tools such as telescopic fishing rods and smart lures to basic items like braided fishing lines. The website offers high-quality fishing equipment designed to enhance the overall experience for any fisherman. 
  
 ## Design Process
  
+Since the website focuses on selling high-quality fishing equipment, I decided to design the logo and banner to reflect that theme. I incorporated a fish with a fishing line extending from it to emphasize the fishing aspect. The website's color scheme features dark green, reminiscent of the deep waters where fish thrive. This choice was made because the primary target audience consists of fishermen and fishing enthusiasts; Fishy Business aims to provide them with top-notch fishing gear.
+
+The website offers a convenient way for customers to access the equipment they need while also showcasing the latest products available in the market through the shop page. Additionally, it provides educational resources and recommendations on how to use the equipment effectively and what types of gear are suitable for different fish species via the FAQ page.
+
+User Stories:
+. As a beginner fishing enthusiast, I want to explore a variety of products so that I can find the right gear to start fishing.
+. As an experienced angler, I want detailed product descriptions and specifications so that I can compare and choose the best items for my needs.
+. As a busy customer, I want a fast and easy checkout process so that I can purchase my gear without unnecessary delays.
+. As a potential customer, I want to contact the store for inquiries to clarify product details or shipping policies.
+. As a loyal user, I want to follow the brand on social media to stay updated on promotions, new arrivals, and community events.
+
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -17,7 +26,15 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Home page: Features the latest equipment arrivals available for purchase on the shop page.
+
+Contact page: A page where users can find Fishy Business contact information for inquiries, complaints, and other issues.
+
+About page: A page that informs users about the purpose of the Fishy Business website.
+
+FAQ page: A FAQ page is where users can find answers to frequently asked questions about how to use equipment and which equipment is better suited for specific tasks.
+
+Shop page: a place where users can go to purchase featured items or other equipment the website has to offer.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z

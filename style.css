@@ -12,9 +12,11 @@ p{
     margin: 0; /* Reset default margins */
 }
 
-#Banner{
-    background-image:url("banne-background.jpg");
+#Banner {
+    background-image: url("/image-folder/banner-background.jpg");
+    height: 250px;
 }
+
 
 .logo img {
     height: 150px; /* Set a specific height */
