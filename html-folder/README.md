@@ -15,11 +15,6 @@ User Stories:
 . As a potential customer, I want to contact the store for inquiries to clarify product details or shipping policies.
 . As a loyal user, I want to follow the brand on social media to stay updated on promotions, new arrivals, and community events.
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
@@ -75,8 +70,13 @@ If this section grows too long, you may want to split it off into a separate fil
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- google
+- microsoft edge
+- created myself
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from various websites like:
+- https://www.monsterhunter.com/
+- https://www.klei.com/games/dont-starve
+- https://www.basspro.com/shop/en?msockid=27adcbdd815861a33c0fdf24801d60c9#
