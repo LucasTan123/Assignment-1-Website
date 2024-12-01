@@ -4,9 +4,12 @@ The Fishy Business website was made for fishing enthusiasts of any experience le
  
 ## Design Process
  
-Since the website focuses on selling high-quality fishing equipment, I decided to design the logo and banner to reflect that theme. I incorporated a fish with a fishing line extending from it to emphasize the fishing aspect. The website's color scheme features dark green, reminiscent of the deep waters where fish thrive. This choice was made because the primary target audience consists of fishermen and fishing enthusiasts; Fishy Business aims to provide them with top-notch fishing gear.
-
-The website offers a convenient way for customers to access the equipment they need while also showcasing the latest products available in the market through the shop page. Additionally, it provides educational resources and recommendations on how to use the equipment effectively and what types of gear are suitable for different fish species via the FAQ page.
+Since the website focuses on selling high-quality fishing equipment to online shoppers. I decided to design the logo and banner to reflect that theme.
+I incorporated a fish with a fishing line extending from it to emphasize the fishing aspect. The website's color scheme features dark green,
+reminiscent of the deep waters where fish thrive. This choice was made because the primary target audience consists of fishermen and fishing enthusiasts.
+Thus, Fishy Business aims to provide them with top-notch fishing gear.
+The website acts as a convenient way for customers to access the equipment they need while also showcasing the latest products available in the market through the shop page.
+Additionally, it provides educational resources and recommendations on how to use the equipment effectively and what types of gear are suitable for different fish species via the FAQ page.
 
 User Stories:
 . As a beginner fishing enthusiast, I want to explore a variety of products so that I can find the right gear to start fishing.
@@ -20,25 +23,28 @@ These files should themselves either be included as a pdf file in the project it
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
 ## Features
+throughout all pages theres a navigatin bar and a footer that takes you to all the pages the website has to offer
 
 Home page: Features the latest equipment arrivals available for purchase on the shop page.
 
-Contact page: A page where users can find Fishy Business contact information for inquiries, complaints, and other issues.
+Contact page: A page where users can find Fishy Business contact information for inquiries, complaints, and other issues. Customers can also use the feedback froarm to write to the compnay itself
 
 About page: A page that informs users about the purpose of the Fishy Business website.
 
 FAQ page: A FAQ page is where users can find answers to frequently asked questions about how to use equipment and which equipment is better suited for specific tasks.
 
-Shop page: a place where users can go to purchase featured items or other equipment the website has to offer.
+Shop page: a place where users can go to purchase featured items or other equipment the website has to offer where customers can click on the but button to purchase the fishing equipment.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Navigation bar that has links that take you to other pages of the website
+- Footer has links to other pages of website like navigation bar but also links to websites social media
+- contact page has a foarm where you can fill in to send to the company
+- shop has buy buttons to click on for customers to purchase equipment
 
 ### Features Left to Implement
-- Another feature idea
+- another feature i could add to make website more interactive is a cart system where customers can see what they have added in the cart where they can either choose to keep it or remove it before purachase
+-  another feature i could add to make website more interactive is a question and answer for faq page, where customers can type their questions and then get a answer specific to their unique questions about fishing
 
 ## Technologies Used
 
