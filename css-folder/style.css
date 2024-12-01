@@ -1,280 +1,347 @@
-/* global styles */
-body {
-    background-color: rgb(31, 36, 35); /* dark background color */
-    color: azure; /* light text color for contrast */
-    letter-spacing: 0.3px; /* slight letter spacing */
-    font-family: 'Lucida Sans', sans-serif; /* font family */
+body{
+    background-color: rgb(31, 36, 35);
+    color: azure;
+    letter-spacing: 0.3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-/* paragraph styling */
-p {
-    font-size: 20px; /* font size for readability */
-    color: azure; /* text color */
-    line-height: 150%; /* line height for spacing */
-    margin: 0; /* remove default margin */
+p{
+    font-size: 20px; /* Adjust font size for readability */
+    color: azure; /* Match the theme */
+    line-height: 150%;
+    margin: 0; /* Reset default margins */
 }
 
-/* banner section */
 #Banner {
-    background-image: url("../image-folder/banner-background.jpg"); /* banner background image */
-    height: 250px; /* fixed height for banner */
+    background-image: url("../image-folder/banner-background.jpg");
+    height: 250px;
 }
 
-/* logo image styling */
+
 .logo img {
-    height: 150px; /* set image height */
-    width: 150px; /* set image width */
-    border-radius: 50%; /* make image circular */
-    margin: 0; /* no margin */
-    padding: 45px; /* padding for spacing */
+    height: 150px; /* Set a specific height */
+    width: 150px; /* Set a specific width */
+    border-radius: 50%; /* Keep it circular */
+    margin: 0; /* Ensure no extra margin */
+    padding: 45px; /* Remove padding */
 }
 
-/* brand name section */
 #Brand-name {
-    padding: 2%; /* small padding */
-    font-size: 500%; /* large font size for brand name */
-    margin: 0; /* no margin */
+    padding: 2%; /* Reduced padding */
+    font-size: 500%; /* Same font size */
+    margin: 0; /* Ensure no extra margin */
 }
 
-/* centering logo and title */
 .center-box {
     display: flex;
-    justify-content: center; /* center items horizontally */
-    align-items: center; /* center items vertically */
-    gap: 10px; /* space between logo and title */
+    justify-content: center;
+    align-items: center; /* Ensures vertical alignment */
+    gap: 10px; /* Space between the logo and title */
 }
 
-/* navigation bar styling */
 #navigation {
-    background: rgb(62, 82, 76); /* background color */
-    padding: 15px; /* padding around navigation */
+    background: rgb(62, 82, 76); /* Subtle gradient */
+    padding: 15px;
     display: flex;
-    justify-content: space-evenly; /* even spacing for links */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* shadow for effect */
+    justify-content: space-evenly; /* Even spacing for links */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow */
 }
 
-/* navigation link styling */
 #navigation a {
-    text-decoration: none; /* remove underlines */
-    color: azure; /* link text color */
-    font-size: 25px; /* font size */
-    font-weight: bold; /* bold text */
-    padding: 8px 15px; /* padding around links */
-    border-radius: 5px; /* rounded corners */
-    transition: all 0.3s ease; /* smooth hover transition */
+    text-decoration: none; /* Remove underlines */
+    color: azure; /* Match the theme */
+    font-size: 25px; /* Slightly larger text */
+    font-weight: bold; /* Make it stand out */
+    padding: 8px 15px; /* Add spacing around links */
+    border-radius: 5px; /* Rounded corners for hover effect */
+    transition: all 0.3s ease; /* Smooth transition for hover */
 }
 
-/* hover effect for links */
 #navigation a:hover {
-    background-color: rgb(80, 96, 88); /* background color on hover */
-    color: rgb(39, 151, 221); /* change text color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* hover shadow */
-    transform: scale(1.1); /* slight zoom effect */
+    background-color: rgb(80, 96, 88); /* Subtle background on hover */
+    color: rgb(39, 151, 221); /* Change color to highlight */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+    transform: scale(1.1); /* Slight zoom effect */
 }
 
-/* sticky navigation bar */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-/* main content styling */
-main {
-    padding: 5%; /* padding around main content */
+main{
+    padding: 5%;
 }
 
-/* main content heading */
-main h1 {
-    text-align: center; /* center-align the heading */
-    font-size: 300%; /* large font size */
-    padding: 0; /* remove padding */
+main h1{
+    text-align: center;
+    font-size: 300%;
+    padding: 0;
 }
 
-/* footer styling */
 footer {
-    background-color: rgb(80, 96, 88); /* footer background color */
-    color: azure; /* footer text color */
-    padding: 40px 20px; /* padding for footer */
-    font-family: 'Arial', sans-serif; /* font family for footer */
+    background-color: rgb(80, 96, 88); /* Muted dark greenish-grey from the header theme */
+    color: azure; /* Light text for contrast */
+    padding: 40px 20px; /* Comfortable padding */
+    font-family: 'Arial', sans-serif; /* Clean and simple font */
 }
 
-/* footer container layout */
+/* Footer container layout */
 .footer-container {
     display: flex;
-    justify-content: space-between; /* even spacing */
-    align-items: flex-start; /* align items to top */
-    flex-wrap: wrap; /* wrap items on smaller screens */
-    gap: 30px; /* space between sections */
+    justify-content: space-between; /* Spread sections evenly */
+    align-items: flex-start; /* Align sections to the top */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    gap: 30px; /* Space between sections */
 }
 
-/* footer section styling */
+/* Footer sections */
 .footer-section {
-    min-width: 200px; /* minimum width for sections */
-    padding: 10px; /* padding inside sections */
+    min-width: 200px; /* Minimum width to prevent shrinking */
+    padding: 10px;
 }
 
-/* footer section heading */
+/* Section headers */
 .footer-section h3 {
-    font-size: 25px; /* font size for section headers */
-    margin-bottom: 15px; /* space below header */
-    color: rgb(39, 151, 221); /* aqua color */
-    text-transform: uppercase; /* uppercase letters */
-    border-bottom: 2px solid azure; /* underline effect */
-    padding-bottom: 5px; /* space below header */
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(39, 151, 221); /* Soft aqua to align with a marine theme */
+    text-transform: uppercase;
+    border-bottom: 2px solid azure; /* Subtle underline effect */
+    padding-bottom: 5px;
 }
 
-/* footer links */
+/* Footer links */
 .footer-section a {
-    color: azure; /* link color */
-    text-decoration: none; /* no underline */
-    font-size: 18px; /* font size */
-    margin: 5px 0; /* space between links */
-    transition: color 0.3s ease; /* smooth hover transition */
+    color: azure; /* Slightly off-white links */
+    text-decoration: none; /* No underline */
+    font-size: 18px; /* Readable link size */
+    margin: 5px 0; /* Space between links */
+    transition: color 0.3s ease;
 }
 
-/* footer link hover effect */
 .footer-section a:hover {
-    color: rgb(39, 151, 221); /* change color on hover */
+    color: rgb(39, 151, 221); /* Aqua hover effect */
 }
 
-/* social media icons styling */
+/* Social media icons */
 .social-icons a {
-    color: azure; /* icon color */
-    font-size: 30px; /* icon size */
-    margin: 0 10px; /* space between icons */
-    transition: color 0.3s ease; /* smooth hover transition */
+    color: azure; /* Default icon color */
+    font-size: 30px; /* Icon size */
+    margin: 0 10px; /* Space between icons */
+    transition: color 0.3s ease;
 }
 
-/* social icon hover effect */
 .social-icons a:hover {
-    color: rgb(39, 151, 221); /* change color on hover */
+    color: rgb(39, 151, 221); /* Aqua hover */
 }
 
-/* unordered list styling */
+/* Unordered list styling */
 .footer-section ul {
-    list-style-type: none; /* remove bullets */
-    padding: 0; /* remove padding */
-    margin: 0; /* remove margin */
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
 }
 
-/* media query for responsive design */
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .footer-container {
-        flex-direction: column; /* stack sections vertically */
-        text-align: center; /* center-align content */
+        flex-direction: column; /* Stack sections vertically */
+        text-align: center; /* Center-align content */
     }
 
     .footer-section {
-        margin-bottom: 20px; /* space between sections */
+        margin-bottom: 20px; /* Space between stacked sections */
     }
 }
 
-/* telescopic section layout */
 #telescopic {
-    display: flex;
-    justify-content: space-between; /* even spacing */
-    align-items: center; /* vertical alignment */
-    gap: 20px; /* space between text and image */
-    margin: 20px; /* add spacing around the section */
+    display: flex; /* Flexbox to align text and image side by side */
+    justify-content: space-between; /* Optional: Ensure even spacing */
+    align-items: center; /* Vertically align text and image */
+    gap: 20px; /* Add a gap between the text and the image */
+    margin: 20px; /* Add spacing around the section */
 }
 
-/* telescopic text styling */
 #telescopic p {
-    font-size: 20px; /* font size */
-    color: azure; /* text color */
-    line-height: 150%; /* line height */
-    margin: 0; /* remove default margin */
+    font-size: 20px; /* Adjust font size for readability */
+    color: azure; /* Match the theme */
+    line-height: 150%;
+    margin: 0; /* Reset default margins */
 }
 
-/* telescopic section heading */
-#telescopic h2 {
-    font-size: 30px; /* font size */
-    margin-bottom: 20px; /* space below heading */
-    color: azure; /* text color */
+#telescopic h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: azure;
 }
 
-/* telescopic image styling */
 #telescopic img {
-    max-width: 300px; /* limit image width */
-    height: auto; /* maintain aspect ratio */
-    border-radius: 10px; /* rounded corners */
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners for a polished look */
 }
 
-/* smart lure section layout */
 #smart-lure {
-    display: flex;
-    flex-direction: row-reverse; /* reverse order (image on left) */
-    align-items: center; /* vertical alignment */
-    gap: 20px; /* space between text and image */
-    margin: 20px; /* add spacing around the section */
+    display: flex; /* Flexbox layout for alignment */
+    flex-direction: row-reverse; /* Reverses the order to place image on the left */
+    align-items: center; /* Ensures vertical alignment */
+    gap: 20px; /* Adds spacing between the text and image */
+    margin: 20px; /* Adds spacing around the container */
 }
 
-/* smart lure image styling */
 #smart-lure img {
-    max-width: 400px; /* max width for image */
-    height: auto; /* maintain aspect ratio */
-    border-radius: 10px; /* rounded corners */
+    max-width: 400px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
 }
 
-/* smart lure heading */
 #smart-lure h2 {
-    font-size: 30px; /* heading size */
-    margin-bottom: 20px; /* space below heading */
-    color: azure; /* text color */
+    font-size: 30px; /* Adjust heading size */
+    margin-bottom: 20px; /* Reduce space below heading */
+    color: azure; /* Match theme */
 }
 
-/* smart lure paragraph styling */
 #smart-lure p {
-    font-size: 20px; /* font size */
-    color: azure; /* text color */
-    line-height: 150%; /* line height */
-    margin: 0; /* remove margin */
+    font-size: 20px; /* Adjust font size for readability */
+    color: azure; /* Match theme */
+    line-height: 150%; /* Improve readability */
+    margin: 0; /* Remove default margins */
 }
 
-/* spiderwire product section layout */
 #SpiderWire-Stealth-Blue-Camo-Braid {
-    display: flex;
-    justify-content: space-between; /* even spacing */
-    align-items: center; /* vertical alignment */
-    gap: 20px; /* space between text and image */
-    margin: 20px; /* add spacing around the section */
+    display: flex; /* Flexbox to align text and image side by side */
+    justify-content: space-between; /* Optional: Ensure even spacing */
+    align-items: center; /* Vertically align text and image */
+    gap: 20px; /* Add a gap between the text and the image */
+    margin: 20px; /* Add spacing around the section */
 }
 
-/* spiderwire product paragraph styling */
 #SpiderWire-Stealth-Blue-Camo-Braid p {
-    font-size: 20px; /* font size */
-    color: azure; /* text color */
-    line-height: 150%; /* line height */
-    margin: 0; /* remove margin */
+    font-size: 20px; /* Adjust font size for readability */
+    color: azure; /* Match the theme */
+    line-height: 150%;
+    margin: 0; /* Reset default margins */
 }
 
-/* spiderwire product heading */
-#SpiderWire-Stealth-Blue-Camo-Braid h2 {
-    font-size: 30px; /* font size */
-    margin-bottom: 20px; /* space below heading */
-    color: azure; /* text color */
+#SpiderWire-Stealth-Blue-Camo-Braid h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: azure;
 }
 
-/* spiderwire product image styling */
 #SpiderWire-Stealth-Blue-Camo-Braid img {
-    max-width: 300px; /* max width for image */
-    height: auto; /* maintain aspect ratio */
-    border-radius: 10px; /* rounded corners */
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners for a polished look */
 }
 
-/* center text styling */
-.center {
-    text-align: center; /* center-align text */
-    padding: 5px; /* padding */
+.center{
+    text-align: center;
+    padding: 5px;
 }
 
-/* contact form styling */
 #contact-form {
-    background-color: rgb(62, 82, 76); /* form background color */
-    color: azure; /* text color */
-    padding: 20px; /* padding */
-    max-width: 600px; /* maximum width */
-    margin: 0 auto; /* center the form */
-    border-radius: 10px; /* rounded corners */
+    background-color: rgb(62, 82, 76); /* Form background */
+    color: azure; /* Text color */
+    padding: 20px; /* Form padding */
+    max-width: 600px; /* Limit form width */
+    margin: 0 auto; /* Center align form */
+}
+
+#contact-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between fields */
+    display: flex;
+    flex-direction: column; /* Align labels and inputs */
+}
+
+.form-group textarea {
+    background-color: rgb(31, 36, 35); /* Input background */
+    color: azure; /* Text color */
+    border: 1px solid rgb(80, 96, 88); /* Border color */
+    padding: 10px; /* Spacing inside textareas */
+    font-size: 16px; /* Font size */
+    outline: none; /* Remove default focus outline */
+}
+
+#submit-button {
+    background-color: rgb(39, 151, 221); /* Button background */
+    color: azure; /* Button text */
+    padding: 10px 20px; /* Button padding */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+#submit-button:hover {
+    background-color: rgb(62, 82, 76); /* Change background on hover */
+    color: rgb(39, 151, 221); /* Highlight text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Add shadow on hover */
+}
+
+.faq-container {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add spacing around the content */
+}
+
+/* Product Grid Styling */
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Space around the grid */
+}
+
+/* Individual Product Styling */
+.product-item {
+    background-color: rgb(62, 82, 76); /* Match site theme */
+    color: azure; /* Text color for contrast */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    text-align: center; /* Center-align text */
+    max-width: 300px; /* Restrict width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Product Item Hover Effect */
+.product-item:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+/* Product Image Styling */
+.product-item img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Buy Button Styling */
+.buy-button {
+    background-color: rgb(39, 151, 221); /* Button color matching theme */
+    color: azure; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Comfortable size */
+    font-size: 16px; /* Readable text size */
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer; /* Pointer cursor for buttons */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+/* Buy Button Hover Effect */
+.buy-button:hover {
+    background-color: rgb(62, 82, 76); /* Reverse color scheme */
+    color: rgb(39, 151, 221); /* Text changes for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Add shadow effect */
 }
