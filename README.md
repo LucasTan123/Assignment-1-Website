@@ -11,7 +11,7 @@ As a beginner fishing enthusiast, I want to explore a variety of products to fin
 As an experienced fisherman, I want detailed product descriptions and specifications to compare and select the best items for my needs.
 As a potential customer, I want to contact the store to clarify product details or inquire about shipping policies.
 Wireframe:
-https://www.figma.com/design/017zp2ME5geqhJfkhi1NFA/ID_s10259047E_Lucas-Tan-Yong-Zun?node-id=0-1&t=AfVBKIbB9X5dbwj5-1
+https://www.figma.com/design/017zp2ME5geqhJfkhi1NFA/ID_s10259047E_Lucas-Tan-Yong-Zun-Assg1_wireframe?node-id=0-1&node-type=canvas&t=l5fbYQCtoz54vsIh-0
 
 ## Features
 The website includes a navigation bar and a footer that is present across all pages, allowing seamless access to other sections of the site.
