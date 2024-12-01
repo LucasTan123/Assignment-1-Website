@@ -13,7 +13,7 @@ p{
 }
 
 #Banner {
-    background-image: url("/image-folder/banner-background.jpg");
+    background-image: url("../image-folder/banner-background.jpg");
     height: 250px;
 }
 
